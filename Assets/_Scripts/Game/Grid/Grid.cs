@@ -84,6 +84,7 @@ public class Grid : MonoBehaviour
                 squareGapNumber.y++;
                 posYOffset += squareGap;
             }
+            
             square.GetComponent<RectTransform>().anchoredPosition = new Vector2(
                 startPosition.x + posXOffset, startPosition.y - posYOffset);
             
